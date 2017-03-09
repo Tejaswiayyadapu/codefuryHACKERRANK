@@ -1,3 +1,4 @@
+/* Writing a program that implements a variation on the Coin Game.Reading a sequence of  coin tosses and determine how many times each three-coin sequence appears. Obviously there are eight such three-coin sequences: TTT, TTH, THT, THH, HTT, HTH, HHT and HHH.  */
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
