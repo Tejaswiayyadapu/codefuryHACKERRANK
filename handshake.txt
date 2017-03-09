@@ -1,3 +1,4 @@
+/*Every one starts shaking hands with everyone else in the room and any two persons shake hand exactly once, calculating total count of handshakes*/ 
 #include <math.h>
 #include <stdio.h>
 #include <string.h>
