@@ -1,0 +1,46 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+int find(int);
+int fact(int);
+int main(){
+    int T,r; 
+    scanf("%d",&T);
+    for(int a0 = 0; a0 < T; a0++){
+        int N; 
+        scanf("%d",&N);
+        if(N<=1)
+            printf("0\n");
+        else
+          {  
+            r=find(N)/fact(2);
+            printf("%d\n",r);
+        }
+            
+    }
+   
+}
+int find(int n)
+    {
+    int res=1,c=1;
+    while(c<=2)
+        {
+        res=res*(n-2+c);
+        c++;
+    }
+    return res;
+}
+int fact(int x)
+    {
+    int f=1;
+    int i;
+    for(i=1;i<=x;i++)
+        {
+        f=f*i;
+    }
+    return f;
+}
